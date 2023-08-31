@@ -1,0 +1,188 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	color: #333;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1c1c1c;
+	color: #fff;
+	padding: 30px;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+header h1 {
+	margin: 0;
+}
+
+.title {
+	margin: 0px 0px 0px 10px;
+}
+
+section {
+	padding: 60px;
+	background: #fff;
+	margin: 40px 20px;
+	border-radius: 10px;
+	position: relative;
+}
+
+#acerca-de-mi img {
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+	width: 150px;
+}
+
+.about-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.interests-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.interest-card {
+	padding: 20px;
+	margin: 10px;
+	border-radius: 8px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	flex: 1 0 30%;
+	position: relative;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	color: #fff;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#card1 {
+	background-image: url(https://www.publicdomainpictures.net/pictures/130000/velka/yellow-background-1440627692qIZ.jpg);
+}
+
+#card2 {
+	background-image: url(https://th.bing.com/th/id/OIP.T-ap21WxoAlFS8IH2N_Y2QHaEo?pid=ImgDet&rs=1);
+}
+
+#card3 {
+	background-image: url(https://th.bing.com/th/id/R.841159fbd99b7e3dfe4a8d27158aa51c?rik=ovsug3tPwP1nzA&riu=http%3a%2f%2fimg1.wikia.nocookie.net%2f__cb20110306014139%2foliver0796%2fes%2fimages%2f8%2f80%2fFondo_color_azul.png&ehk=GaAGYtxOpNxCrf0EUwPbXJGqg%2fsICzyyM0tgFNpAZNs%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+}
+
+#card4 {
+	background-image: url(https://th.bing.com/th/id/R.a447af30bdc23cf3afc198bb32497032?rik=ccAUVBnmEZv5ww&riu=http%3a%2f%2felsignificadode.com%2fwp-content%2fuploads%2f2016%2f01%2fsignificado-del-color-violeta.jpg&ehk=BeF007S7j84XDL3xOfi0MHz3w4dkznUv9m9%2fZX0d1GI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+}
+
+#card5 {
+	background-image: url(https://th.bing.com/th/id/R.3c62eaaf3dc9bab96ca9c502d11bad58?rik=MXbopzR8MPR%2bng&riu=http%3a%2f%2fwww.leroymerlin.es%2fimg%2fr25%2f26%2f2601%2f260109%2f16383374%2f16383374_z3.jpg&ehk=lq0eut8xyv0TaF4b%2bXmHpTdRn8FBAwMYtSjWXWTXNe8%3d&risl=&pid=ImgRaw&r=0);
+}
+
+#card6 {
+	background-image: url(https://wallpaperaccess.com/full/1188230.png);
+}
+
+.interest-card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.interest-card h3 {
+	font-size: 1.2rem;
+	margin: 10px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background: #1c1c1c;
+	color: #fff;
+}
+
+a {
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.about-container,
+.habilidades {
+    background: #dfe4e8;
+	border: 1px solid #ddd;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width: 270px) and (max-width: 599px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #acerca-de-mi img {
+    width: 100%;
+  }
+
+  .about-container,
+  .habilidades {
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .interests-container {
+    justify-content: center;
+  }
+
+  .interest-card {
+    flex: 1 0 60%;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #acerca-de-mi img {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .about-container,
+  .habilidades {
+    padding: 10px;
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .interest-card {
+    flex: 1 0 45%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .interest-card {
+    flex: 1 0 30%;
+  }
+}
