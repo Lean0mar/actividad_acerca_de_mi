@@ -1,12 +1,11 @@
 <h1 align="center">Acerca de Mí</h1>
 
-¡Bienvenido a la página "Acerca de Mí" de mi repositorio! Aquí encontrarás información sobre quién soy, mis habilidades y cómo contactarme.
+¡Bienvenido a la página "Acerca de Mí" de mi repositorio! Aquí encontrarás información sobre quién soy y mis habilidades.
 
 ## 📄 Secciones
 
 - Información Personal: Descubre más sobre mí y mi trayectoria.
 - Habilidades: Conoce las tecnologías con las que trabajo.
-- Contacto: Encuéntrame en línea.
 
 ## 💻 Tecnologías Utilizadas
 
