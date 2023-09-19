@@ -1,31 +1,31 @@
-<h1 align="center">Acerca de Mí</h1>
+<h1 align="center">About Me</h1>
 
-¡Bienvenido a la página "Acerca de Mí" de mi repositorio! Aquí encontrarás información sobre quién soy y mis habilidades.
+Welcome to the "About Me" page of my repository! Here, you'll find information about who I am and my skills.
 
-## 📄 Secciones
+## 📄 Sections
 
-- Información Personal: Descubre más sobre mí y mi trayectoria.
-- Habilidades: Conoce las tecnologías con las que trabajo.
+- Personal Information: Discover more about me and my background.
+- Skills: Get to know the technologies I work with.
 
-## 💻 Tecnologías Utilizadas
+## 💻 Technologies Used
 
-Este proyecto fue construido utilizando las siguientes tecnologías:
+This project was built using the following technologies:
 
 - HTML
 - CSS
 
-## 🌐 Contacto
+## 🌐 Contact
 
-Puedes contactarme a través de:
+You can reach out to me through:
 
-- Correo electrónico: [lm.martinez.leandro@gmail.com](mailto:lm.martinez.leandro@gmail.com)
+- Email: [lm.martinez.leandro@gmail.com](mailto:lm.martinez.leandro@gmail.com)
 - LinkedIn: [linkedin.com/in/lean0mar](https://www.linkedin.com/in/lean0mar)
 - GitHub: [github.com/Lean0mar](https://github.com/Lean0mar)
 
-## ⚡ Créditos
+## ⚡ Credits
 
-- Imagen de fondo obtenidas de diversas fuentes en línea.
+- Background image sourced from various online sources.
 
-## 📖 Licencia
+## 📖 License
 
-© 2023 Leandro Martínez. Todos los derechos reservados.
+© 2023 Leandro Martínez. All rights reserved.
